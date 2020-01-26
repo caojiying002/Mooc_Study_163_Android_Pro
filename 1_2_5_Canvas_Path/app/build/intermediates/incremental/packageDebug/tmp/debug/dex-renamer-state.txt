@@ -1,0 +1,7 @@
+#Sun Jan 26 18:30:25 CST 2020
+base.0=D\:\\Mooc_Study_163_Android_Pro\\1_2_5_Canvas_Path\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\Mooc_Study_163_Android_Pro\\1_2_5_Canvas_Path\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex
