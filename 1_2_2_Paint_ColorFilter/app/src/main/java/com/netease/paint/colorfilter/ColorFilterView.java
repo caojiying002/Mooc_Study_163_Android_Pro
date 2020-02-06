@@ -12,9 +12,12 @@ import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 import com.netease.paint.colorfilter.R;
+
+import java.util.Arrays;
 
 public class ColorFilterView extends View {
 
@@ -79,7 +82,9 @@ public class ColorFilterView extends View {
 //        cm.setSaturation(2);
 
         //色调调节
+        Log.d("TAG", Arrays.toString(cm.getArray()));
         cm.setRotate(0, 45);
+        Log.d("TAG", Arrays.toString(cm.getArray()));
 
         mColorMatrixColorFilter = new ColorMatrixColorFilter(cm);
         mPaint.setColorFilter(mColorMatrixColorFilter);
