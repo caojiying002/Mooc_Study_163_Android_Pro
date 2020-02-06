@@ -62,11 +62,11 @@ public class GradientLayout extends View {
 //        mPaint.setTextAlign(Paint.Align.LEFT);//对其方式
 //        mPaint.setUnderlineText(true);// 设置下划线
 //
-//        String str = "Android高级工程师";
+        String str = "Android高级工程师";
 //        Rect rect = new Rect();
 //        mPaint.getTextBounds(str, 0, str.length(), rect); //测量文本大小，将文本大小信息存放在rect中
-//        mPaint.measureText(str); //获取文本的宽
-//        mPaint.getFontMetrics(); //获取字体度量对象
+        float w = mPaint.measureText(str);//获取文本的宽
+        Paint.FontMetrics fm = mPaint.getFontMetrics();//获取字体度量对象
 
     }
 
